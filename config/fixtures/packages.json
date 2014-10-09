@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "learn-undefined",
+    "description": "learn about the undefined primitive",
+    "tags": ["primitive", "undefined", "javascript"]
+  },
+  {
+    "id": 2,
+    "name": "learn-null",
+    "description": "learn about the null primitive",
+    "tags": ["primitive", "null", "javascript"]
+  },
+  {
+    "id": 3,
+    "name": "learn-boolean",
+    "description": "learn about the boolean primitive",
+    "tags": ["primitive", "boolean", "javascript"]
+  },
+  {
+    "id": 4,
+    "name": "learn-string",
+    "description": "learn about the string primitive",
+    "tags": ["primitive", "string", "javascript"]
+  },
+  {
+    "id": 5,
+    "name": "learn-number",
+    "description": "learn about the number primitive",
+    "tags": ["primitive", "number", "javascript"]
+  },
+  {
+    "id": 6,
+    "name": "learn-object",
+    "description": "learn about objects",
+    "tags": ["object", "javascript"]
+  },
+  {
+    "id": 7,
+    "name": "learn-function",
+    "description": "learn about functions",
+    "tags": ["function", "javascript"]
+  },
+  {
+    "id": 8,
+    "name": "learn-array",
+    "description": "learn about arrays",
+    "tags": ["array", "javascript"]
+  },
+  {
+    "id": 9,
+    "name": "learn-prototypes",
+    "description": "learn about prototypes",
+    "tags": ["prototype", "javascript"]
+  },
+  {
+    "id": 10,
+    "name": "learn-blocks",
+    "description": "learn about blocks",
+    "tags": ["blocks", "ruby"]
+  }
+]

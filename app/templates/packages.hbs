@@ -1,0 +1,15 @@
+{{view 'search' value=queryFilter}}
+
+{{#each name in filters}}
+  {{view 'filter' name=name}}
+{{/each}}
+<button {{action 'clearTagFilters'}}>clear filters</button>
+
+<h2>packages</h2>
+<ul>
+{{#each itemController="package"}}
+  {{#if visible}}
+    <li>{{render 'partials/package_tile' this}}</li>
+  {{/if}}
+{{/each}}
+</ul>

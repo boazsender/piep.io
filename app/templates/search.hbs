@@ -1,0 +1,7 @@
+<h3>searching for "{{query}}"</h3>
+
+<ul>
+{{#each results as package}}
+  <li>{{render 'package_tile' package}}</li>
+{{/each}}
+</ul>
