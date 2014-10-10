@@ -32,6 +32,10 @@ module.exports = function(grunt) {
         files: ['app/pages/*'],
         tasks: ['jade:develop']
       },
+      stylus: {
+        files: ['styles/*'],
+        tasks: ['stylus']
+      }, 
       handlebars: {
         files: ['app/templates/**'],
         tasks: ['handlebars']
