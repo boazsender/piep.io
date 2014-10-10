@@ -3,6 +3,7 @@ define(function (require) {
   var Ember = require('ember');
 
   return Ember.View.extend({
+    classNames: ['filter'],
     tagName: 'button',
     templateName: 'filter',
     classNameBindings: ['active:active'],

@@ -1,15 +1,30 @@
-{{view 'search' value=queryFilter}}
+<section class="banner">
+  <div class="container">
+    <img alt="piep!" class="logo" src="/logo.png"/>
+    <h2>A Package Manager for Education</h2>
+    {{view 'search' value=queryFilter}}
+    <img alt="built by bocoup" src="/built_by.png"/>
+  
+    <div class="filters clearfix">
+      {{#each name in filters}}
+        {{view 'filter' name=name}}
+      {{/each}}
+        <div class="controls col-3">
+          <button class="clear" {{action 'clearTagFilters'}}>clear filters</button>
+      </div>
+    </div>
+  </div>
+</section>
 
-{{#each name in filters}}
-  {{view 'filter' name=name}}
-{{/each}}
-<button {{action 'clearTagFilters'}}>clear filters</button>
-
-<h2>packages</h2>
-<ul>
-{{#each itemController="package"}}
-  {{#if visible}}
-    <li>{{render 'partials/package_tile' this}}</li>
-  {{/if}}
-{{/each}}
-</ul>
+<section class="packages clearfix">
+  <div class="container">
+    <h2>Packages</h2>
+    <ul>
+    {{#each itemController="package"}}
+      {{#if visible}}
+        <li>{{render 'partials/package_tile' this}}</li>
+      {{/if}}
+    {{/each}}
+    </ul>
+  </div>
+</section>

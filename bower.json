@@ -2,7 +2,6 @@
   "name": "piep.io",
   "version": "0.1.0",
   "resolutions": {
-    "almond": "~0.3.0",
     "handlebars": ">= 1.0.0 < 2.0.0"
   },
   "devDependencies": {
