@@ -1,8 +1,12 @@
-<h2>{{name}}</h2>
-<p>{{description}}</p>
-tags:
-<ul>
-{{#each tags}}
-  <li>{{this}}</li>
-{{/each}}
-</ul>
+<section class="package">
+  <div class="container">    
+    <h2>{{name}}</h2>
+    <p>{{description}}</p>
+    tags:
+    <ul>
+    {{#each tags}}
+      <li><button class="filter">{{this}}</button></li>
+    {{/each}}
+    </ul>
+  </div>
+</section>
