@@ -1,4 +1,4 @@
-![piep!](logo-small.png)
+![piep!](assets/logo-small.png)
 # piep.io
 > learn something
 
@@ -18,4 +18,4 @@ An Ember application for discovering `piep` educational packages. For more infor
 3. `grunt`
 4. Open `http://localhost:8000`
 
-![built by bocoup](built_by.png)
+![built by bocoup](assets/built_by.png)
